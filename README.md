@@ -38,6 +38,7 @@ vim webscraper_v2.py
 Set the correct chromedriver in Line 21 [webscraper_v2.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/128700e78a69a8e9279376717fd30862b2d4f6ff/webscraper_v2.py#L21)
 
 Mac     : ./chromdriver/chromedriver_mac
+
 Windows : .\chromedriver\chromedriver.exe
 
 ```sh
