@@ -15,6 +15,10 @@
 
 ### ✨ [Demo](https://github.com/mitkotak/American_Job_Center_Scraper)
 
+<p align="center">
+  <a href="https://gifyu.com/image/O9F0"><img src="https://s6.gifyu.com/images/in3c8af0db72e17241.gif" alt="in3c8af0db72e17241.gif" border="0" /></a>
+</p>
+
 ## Usage
 
 Fire up your terminal/command prompt, navigate to the repo folder and install all of the requirements. This can take a while :)
