@@ -18,7 +18,7 @@ with open('test_zipcode.csv') as f:
 print("Zipcodes : ",columns['Zipcode'])
 
 print("Loading Chrome Driver..")
-driver = webdriver.Chrome('/Users/mit/Documents/Github/American_Job_Center_Scraper/chromedriver/chromedriver_mac')
+driver = webdriver.Chrome('./chromedriver/chromedriver_mac')
 print("Done")
 
 file = open('scrapped.csv', 'w+', newline ='')
