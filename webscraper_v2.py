@@ -190,7 +190,7 @@ with file:
 			if bs not in header:
 				header.append(bs)
             
-		writer = csv.DictWriter(file, fieldname = header)
+		writer = csv.DictWriter(file, fieldnames = header)
 		writer.writerow(dict_csv)
 	writer.writeheader()
 print('csv created')
