@@ -47,9 +47,7 @@ Or
 python webscraper_v2.py
 ``` 
 
-<p align="center" style="font-size:25px">
-  Let the scrapping begin !!
-</p>
+### Let the scrapping begin !!
 
 <p align="center">
   <img width="500" align="center" src="https://media.giphy.com/media/d8PjnRdlAP52F1CImb/giphy.gif" alt="demo"/>
