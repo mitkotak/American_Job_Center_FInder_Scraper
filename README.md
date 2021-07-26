@@ -29,17 +29,19 @@ Fire up your terminal/command prompt, navigate to the repo folder and install al
 pip install -r requirements.txt
 ```
 
-Now make sure that you have correct input csv file. E.g test_zipcode.csv in [webscraper_v2.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/128700e78a69a8e9279376717fd30862b2d4f6ff/webscraper_v2.py#L24)
+Set the correct input csv file. E.g test_zipcode.csv in Line 24 [webscraper_v2.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/128700e78a69a8e9279376717fd30862b2d4f6ff/webscraper_v2.py#L24)
 
 ```sh
-with open('test_zipcode.csv') as f:
+vim webscraper_v2.py
 ```
 
-Install the latest version of [chromedriver](https://chromedriver.chromium.org) and make sure that you have the correct path in [webscraper_v2.py
-](https://github.com/mitkotak/American_Job_Center_Scraper/blob/128700e78a69a8e9279376717fd30862b2d4f6ff/webscraper_v2.py#L21)
+Set the correct chromedriver in Line 21 [webscraper_v2.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/128700e78a69a8e9279376717fd30862b2d4f6ff/webscraper_v2.py#L21)
+
+Mac     : ./chromdriver/chromedriver_mac
+Windows : .\chromedriver\chromedriver.exe
 
 ```sh
-driver = webdriver.Chrome('/Users/mit/Downloads/chromedriver')
+vim webscraper_v2.py
 ```
 
 Just run the following command after this:
