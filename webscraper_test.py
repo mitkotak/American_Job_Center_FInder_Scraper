@@ -18,7 +18,7 @@ with open('test_zipcode.csv') as f:
 print("Zipcodes : ",columns['Zipcode'])
 
 print("Loading Chrome Driver..")
-driver = webdriver.Chrome('/Users/mit/Downloads/chromedriver')
+driver = webdriver.Chrome('./chromedriver/chromedriver_mac')
 print("Done")
 
 header = [ 'Zipcode','Center_Name','Google_Maps_Link','Center_Website','Emails']
