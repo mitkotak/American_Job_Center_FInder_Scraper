@@ -13,6 +13,8 @@
 
 ### 🏠 [Youtube](https://www.youtube.com/embed/JMZxeZKDPZA)
 
+[![Watch the video](https://img.youtube.com/vi/JMZxeZKDPZA/hqdefault.jpg)](https://www.youtube.com/embed/JMZxeZKDPZA)
+
 ### ✨ [Demo](https://github.com/mitkotak/American_Job_Center_Scraper)
 
 <p align="center">
