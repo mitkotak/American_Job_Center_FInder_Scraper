@@ -29,7 +29,7 @@ Fire up your terminal/command prompt, navigate to the repo folder and install al
 pip install -r requirements.txt
 ```
 
-Set the correct input csv file. E.g test_zipcode.csv in Line 24 [webscraper_v3.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/128700e78a69a8e9279376717fd30862b2d4f6ff/webscraper_v3.py#L24)
+Set the correct input csv file. E.g test_zipcode.csv in Line 10 [webscraper_v3.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/75de1b92da5b37d45a0c7f319d075cb14c9aa7e8/webscraper_v3.py#L10)
 
 ```sh
 vim webscraper_v2.py
