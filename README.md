@@ -23,29 +23,36 @@
 
 ## Usage
 
-Fire up your terminal/command prompt, navigate to the repo folder and install all of the requirements. This can take a while :)
+Install [Firefox](https://www.mozilla.org/en-US/) if you don't have that already on your computer
+  
+
+Fire up your terminal/command prompt, navigate to the repo folder and install all of the requirements.
 
 ```sh
 pip install -r requirements.txt
 ```
 
-Set the correct input csv file. E.g test_zipcode.csv in Line 10 [webscraper_v3.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/75de1b92da5b37d45a0c7f319d075cb14c9aa7e8/webscraper_v3.py#L10)
-
-```sh
-vim webscraper_v2.py
-```
-
-Set the correct chromedriver in Line 21 [webscraper_v3.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/75de1b92da5b37d45a0c7f319d075cb14c9aa7e8/webscraper_v3.py#L21)
-
-<ul>
-  <li>Mac     : ./chromdriver/chromedriver_mac</li>
-  <li>Windows : .\chromedriver\chromedriver.exe</li>
-</ul>
+  
+Set the correct input csv file. E.g test_zipcode.csv in Line 10 [webscraper_v3.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/1c4cbd0d1f07c1da18f1d02d7c8f775e2bf726c1/webscraper_v3.py#L10)
 
 ```sh
 vim webscraper_v3.py
 ```
 
+  
+Set the correct driver in Line 23 [webscraper_v3.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/1c4cbd0d1f07c1da18f1d02d7c8f775e2bf726c1/webscraper_v3.py#L23)
+
+<ul>
+  <li>Mac     : ./drivers/geckodriver</li>
+  <li>Windows : .\drivers\geckodriver.exe</li>
+</ul>
+```sh
+vim webscraper_v3.py
+```
+Now just run the geckodriver/geckodriver.exe once by double-clicking on it. Install the latest version from [here] (https://github.com/mozilla/geckodriver/releases) 
+if things don't work 
+
+  
 Just run the following command after this:
 
 ```sh
@@ -56,6 +63,7 @@ Or
 ```sh
 python webscraper_v2.py
 ``` 
+
 
 ### Let the scrapping begin !!
 
