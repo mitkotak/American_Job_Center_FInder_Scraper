@@ -27,7 +27,8 @@ with file:
 	
 	#writer = csv.DictWriter(file, fieldnames = header)
 	#writer.writeheader()
-
+	
+	header_length = 0
 	for zipcode in columns['Zipcode']:
 		link = 'https://www.careeronestop.org/WorkerReEmployment/Toolkit/find-american-job-centers.aspx?location='+zipcode+'&radius=5&ct=0&y=0&w=0&e=0&sortcolumns=Distance&sortdirections=ASC&centerID=1517839'
 		print('opening link')
@@ -95,9 +96,10 @@ with file:
 						gr_col2 = gr_col2[pos + 1 : pos + 1 + length]
 						break
 			
-			if gr_col2[0:25] == '<span class="notranslate">':
+			if gr_col2[0:25] == '<span class="notranslate"':
 				gr_col2 = gr_col2[26:-11]
-			if gr_col1[0] == 'O':
+				print(gr_col2)
+			if (gr_col1[0] == 'O') or (gr_col1[0:7]  == 'Parking') or (gr_col1[0:6] == 'Public') or (gr_col1[0:4] == 'Type') or (gr_col1[0:8] == 'Language'):
 				gr_col2 = gr_col2[:-4]
 
 			grs.append(gr_col1)
@@ -168,12 +170,24 @@ with file:
 		body  = [zipcode,'Center_Name',center_name,'Website',website,'Google_Maps_Link',google_maps_link,'Address',address,'Phone',phone]
 		body = body + grs + srs + yss + bss
 		header = ['Zipcode']
+
 		for i in range(1,len(body)):
 			header.append('col'+str(i))
+
+		if len(header) > header_length:
+			header_len = len(header)
+		
+		writer = csv.DictWriter(file, fieldnames = header)
+
 		dict_csv = {}
 		for i in range(len(body)):
 			dict_csv[header[i]] = body[i]
-		writer = csv.DictWriter(file, fieldnames = header)
-		writer.writeheader()
-		writer.writerow(dict_csv)
+		writer.writerow(dict_csv)		
+	
+	dict_csv = {}	
+	header = ['Zipcode']
+	for i in range(1,header_length):
+		dict_csv['col'+str(i)] = 'col'+str(i)
+	writer.writerow(dict_csv)
+
 print('csv created')
