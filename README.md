@@ -37,12 +37,13 @@ vim webscraper_v2.py
 
 Set the correct chromedriver in Line 21 [webscraper_v2.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/128700e78a69a8e9279376717fd30862b2d4f6ff/webscraper_v2.py#L21)
 
-Mac     : ./chromdriver/chromedriver_mac
-
-Windows : .\chromedriver\chromedriver.exe
+<ul>
+  <li>Mac     : ./chromdriver/chromedriver_mac</li>
+  <li>Windows : .\chromedriver\chromedriver.exe</li>
+</ul>
 
 ```sh
-vim webscraper_v2.py
+vim webscraper_v3.py
 ```
 
 Just run the following command after this:
