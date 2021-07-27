@@ -23,7 +23,7 @@ print("Loading Firefox Driver")
 driver = webdriver.Firefox(executable_path=r'./drivers/geckodriver')
 print("Done")
 
-file = open('scrapped2.csv', 'w+', newline ='')
+file = open('scrapped.csv', 'w+', newline ='')
 with file:
 	#header = [ 'Zipcode','Center_Name','Google_Maps_Link','Center_Website','Emails','Address','Phone','Telephones','Fax Machines','On-site Childcare','Video Viewing Stations','Rooms where employers can interview job seekers','Career Resource Room','Copy Machine','Personal Computers','Internet Access','Post your resume for employers to see','Get help in preparing for job interviews','Learn about strategies for finding a job','Find out how to get a work permit','Find out about job openings (including work experience, internships and community service)','Get help preparing your resume','Improve your current job skills','Learn about the world of business','Learn new job skills','Improve your English skills (ESL)','Improve your reading, writing and math skills','Get information about schools and training programs','Prepare for a high school equivalency (HSE) exam','Learn about financial aid for training','Get help finding child care','Get help with living expenses while in training','Get information about employers in your local area','Assess your reading and math skills','Learn about jobs and careers suitable for you','Learn about what employers expect of their workers','Assess your career interests and skills','Learn about jobs in demand and rates of pay','Find out about summer learning opportunities','Get help in finding a summer job','File Unemployment Insurance (UI) Claim','Get help in coping with the stress of job loss','Get help coping financially with job loss','Learn about community resources','Share job-search strategies with other job seekers (job club)','Get help preparing your resume','Learn about strategies for finding a job','Find out about job openings','Get help in preparing for job interviews','Post your resume for employers to see','Get information about education and training schools, such as their tuition and success in placing students in jobs','Prepare for a high school equivalency (HSE) exam','Improve your current job skills','Improve your English skills (ESL)','Improve your reading writing and math skills','Learn how to start your own business','Receive training in new job skills','Get help finding childcare','Get help with living expenses while in training','Assess your reading and math skills','Learn about jobs in demand and rates of pay','Learn about what employers expect of their workers','Get information about employers in your local area','Learn about jobs and careers suitable for you','Assess your career interests','Get outplacement services for employees you are laying off','Get information on employment, wage and salary trends','Receive information on the Work Opportunity Tax Credit and other hiring incentives','Learn about legal requirements for hiring and firing workers','Learn about EEO and ADA requirements','Get your employee training needs analyzed','Learn about Unemployment Insurance taxes and eligibility rules','Get training costs reimbursed for qualified job candidates','Develop programs to train new workers for your business','Get help in analyzing and writing job descriptions','Learn how to interview job applicants effectively','Learn about strategies for recruiting workers','Have job applicants` skills tested','Get job applicants pre-screened','Get access to resumes posted by job applicants','Post your job openings','Have background checks conducted on job applicants','Use on-site facilities for recruiting and interviewing job applicants']	
 	
@@ -32,15 +32,18 @@ with file:
 	
 	header_length = 0
 	for zipcode in columns['Zipcode']:
-		link_main = 'https://www.careeronestop.org/WorkerReEmployment/Toolkit/find-american-job-centers.aspx?location='+zipcode+'&radius=5&ct=0&y=0&w=0&e=0&sortcolumns=Distance&sortdirections=ASC&centerID=1517839&curPage=1&pagesize=500'
+		link_main = 'https://www.careeronestop.org/WorkerReEmployment/Toolkit/find-american-job-centers.aspx?location='+zipcode+'&radius=25&ct=0&y=0&w=0&e=0&sortcolumns=Distance&sortdirections=ASC&centerID=1517839&curPage=1&pagesize=500'
 		print('opening link')
 		driver.get(link_main)
 		print("Let's start scraping :)")
-		elems  = driver.find_elements_by_xpath('//a[@class="notranslate"]')
+		elems  = driver.find_elements_by_xpath('//*[@id="AJCTable"]/table/tbody//child::td')
+		print(len(elems))
 		if elems == []:
 			continue
 		links = []
 		for i in range(0,len(elems),3):
+			driver.get(link_main)
+			print("We are on Center: " + str(int(i/3)))
 			link_html = driver.find_elements_by_xpath('//*[@id="AJCTable"]/table/tbody//child::td')[i].get_attribute("innerHTML")
 			link = 'https://www.careeronestop.org'+link_html.replace(';','&')[29:311]
 			print("Let's go to " + link)
@@ -73,6 +76,7 @@ with file:
 				phone = phone_element[0].text
 			gr_elements = driver.find_elements_by_xpath('//*[@id="GenInfo"]/table/tbody//child::td')
 			if gr_elements == []:
+				driver.back()
 				continue
 			print('############################################################################################################################################################################################')
 			grs = []
@@ -178,23 +182,15 @@ with file:
 
 			for i in range(1,len(body)):
 				header.append('col'+str(i))
-
-			if len(header) > header_length:
-				header_len = len(header)
 		
 			writer = csv.DictWriter(file, fieldnames = header)
 
 			dict_csv = {}
 			for i in range(len(body)):
 				dict_csv[header[i]] = body[i]
-			writer.writerow(dict_csv)		
-			driver.back()
+			writer.writerow(dict_csv)	
+			print("Row added")	
 			from time import sleep
 			sleep(3)
-	dict_csv = {}	
-	header = ['Zipcode']
-	for i in range(1,header_length):
-		dict_csv['col'+str(i)] = 'col'+str(i)
-		writer.writerow(dict_csv)
 
 print('csv created')
