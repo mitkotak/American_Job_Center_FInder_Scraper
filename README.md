@@ -23,7 +23,7 @@
 
 ## Usage
 
-Install [Firefox](https://www.mozilla.org/en-US/) if you don't have that already on your computer
+Install [Firefox](https://www.mozilla.org/en-US/) if you don't have that already on your computer. If you want to use chrome then uncomment these [lines](https://github.com/mitkotak/American_Job_Center_Scraper/blob/50400031a18cc47afcaa740a48a9ca3c418fac17/webscraper_v3.py#L34). Remember to comment out the Firefoc lines.
   
 
 Fire up your terminal/command prompt, navigate to the repo folder and install all of the requirements.
@@ -42,13 +42,24 @@ vim webscraper_v3.py
   
 Set the correct driver in Line 23 [webscraper_v3.py](https://github.com/mitkotak/American_Job_Center_Scraper/blob/1c4cbd0d1f07c1da18f1d02d7c8f775e2bf726c1/webscraper_v3.py#L23)
 
+```sh
+vim webscraper_v3.py
+```
+
+Firefox
 <ul>
   <li>Mac     : ./drivers/geckodriver</li>
   <li>Windows : .\drivers\geckodriver.exe</li>
 </ul>
-```sh
-vim webscraper_v3.py
-```
+
+
+Firefox
+<ul>
+  <li>Mac     : ./drivers/chromedriver</li>
+  <li>Windows : .\drivers\chromedriver.exe</li>
+</ul>
+
+
 Now just run the geckodriver/geckodriver.exe once by double-clicking on it. Install the latest version from [here] (https://github.com/mozilla/geckodriver/releases) 
 if things don't work 
 
