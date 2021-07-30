@@ -584,3 +584,1605 @@ console.error: BackgroundUpdate:
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
 1627427303995	Marionette	INFO	Listening on port 63600
 1627427304127	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+1627430704005	geckodriver	INFO	Listening on 127.0.0.1:64925
+1627430704032	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile4Dw3Zv"
+1627430705877	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile4Dw3Zv/search.json.mozlz4", (void 0)))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627430710358	Marionette	INFO	Stopped listening on port 63600
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627430711796	Marionette	INFO	Listening on port 64934
+1627430711855	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627430852303	geckodriver	INFO	Listening on 127.0.0.1:65219
+1627430852334	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilew1YUqY"
+1627430853823	Marionette	INFO	Marionette enabled
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627430856028	Marionette	INFO	Stopped listening on port 64934
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilew1YUqY/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627430859102	Marionette	INFO	Listening on port 65228
+1627430859201	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1627431237788	geckodriver	INFO	Listening on 127.0.0.1:65471
+1627431237824	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pw6YJ"
+1627431238911	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pw6YJ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627431243343	Marionette	INFO	Listening on port 65480
+1627431243456	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1627431298702	geckodriver	INFO	Listening on 127.0.0.1:49211
+1627431298740	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile08JtGA"
+1627431300273	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile08JtGA/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627431305669	Marionette	INFO	Listening on port 49220
+1627431305823	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: TypeError: defaultinput is undefined
+1627432697497	geckodriver	INFO	Listening on 127.0.0.1:49870
+1627432697525	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile7kKj9C"
+1627432699417	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile7kKj9C/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627432704370	Marionette	INFO	Listening on port 49879
+1627432704541	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14829, Socket Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:161
+1627432709422	Marionette	INFO	Stopped listening on port 49220
+1627433025215	Marionette	INFO	Stopped listening on port 49879
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627433028977	geckodriver	INFO	Listening on 127.0.0.1:50071
+1627433029007	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilei62gzU"
+1627433030132	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilei62gzU/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627433034933	Marionette	INFO	Listening on port 50080
+1627433035071	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1627433370690	geckodriver	INFO	Listening on 127.0.0.1:50270
+1627433370722	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileXrhTU8"
+1627433371793	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileXrhTU8/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627433376094	Marionette	INFO	Listening on port 50279
+1627433376233	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627437251413	geckodriver	INFO	Listening on 127.0.0.1:51590
+1627437251452	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5"
+1627437252817	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/search.json.mozlz4", (void 0)))
+2021-07-27 20:54:17.746 plugin-container[15618:802566] CoreText: System LastResort not available, using built-in copy.
+[Parent 15617, IPC I/O Parent] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:161
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+[Parent 15617, IPC I/O Parent] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:762
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+console.log: "RemoteSettingsWorker error: UnknownError: IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+console.log: "RemoteSettingsWorker error: UnknownError: IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+console.log: "RemoteSettingsWorker error: UnknownError: IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+JavaScript error: moz-extension://d2b3f66d-e5f3-d540-87d5-0c2b82b12dbb/run.js, line 8: ReferenceError: PictureInPictureOverrides is not defined
+IPDL protocol Error: Received an invalid file descriptor
+JavaScript error: moz-extension://e7f5e169-8d66-f549-be0f-536cd9620a92/data/shims.js, line 270: ReferenceError: module is not defined
+[Parent 15617, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+JavaScript error: moz-extension://e7f5e169-8d66-f549-be0f-536cd9620a92/data/ua_overrides.js, line 11: ReferenceError: require is not defined
+JavaScript error: moz-extension://e7f5e169-8d66-f549-be0f-536cd9620a92/lib/about_compat_broker.js, line 123: ReferenceError: module is not defined
+JavaScript error: moz-extension://e7f5e169-8d66-f549-be0f-536cd9620a92/lib/custom_functions.js, line 96: ReferenceError: module is not defined
+JavaScript error: moz-extension://e7f5e169-8d66-f549-be0f-536cd9620a92/lib/injections.js, line 163: ReferenceError: module is not defined
+JavaScript error: moz-extension://e7f5e169-8d66-f549-be0f-536cd9620a92/lib/shims.js, line 624: ReferenceError: module is not defined
+[Parent 15617, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+JavaScript error: moz-extension://e7f5e169-8d66-f549-be0f-536cd9620a92/lib/ua_overrides.js, line 210: ReferenceError: module is not defined
+JavaScript error: moz-extension://e7f5e169-8d66-f549-be0f-536cd9620a92/run.js, line 11: ReferenceError: AVAILABLE_INJECTIONS is not defined
+[Parent 15617, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+console.error: "Could not read session file " (new Error("", "(unknown module)")) ""
+JavaScript error: , line 0: uncaught exception: Object
+console.error: "Could not read session file " (new Error("", "(unknown module)")) ""
+[Parent 15617, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+[Parent 15617, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+console.error: "Could not read session file " (new Error("", "(unknown module)")) ""
+console.error: "Could not read session file " (new Error("", "(unknown module)")) ""
+console.error: "Could not read session file " (new Error("", (void 0))) ""
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: "Could not read session file " (new Error("", (void 0))) ""
+console.error: "Could not read session file " (new Error("", (void 0))) ""
+console.error: "Could not read session file " (new Error("", (void 0))) ""
+JavaScript error: , line 0: UnknownError: Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/sessionCheckpoints.json.tmp for writing
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627437260595	Marionette	INFO	Listening on port 51600
+1627437260886	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1627437265925	Marionette	INFO	Stopped listening on port 50279
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile9pJiQ5/content-prefs.sqlite: 2152857621
+JavaScript error: https://www.careeronestop.org/JS/ajc-finder.min.js?v=06242021, line 5: NS_ERROR_FAILURE: 
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627438196804	geckodriver	INFO	Listening on 127.0.0.1:51954
+1627438196841	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilek4ERbM"
+1627438202566	geckodriver	INFO	Listening on 127.0.0.1:51976
+1627438202622	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileyOKzzC"
+1627438204329	Marionette	INFO	Marionette enabled
+1627438206323	Marionette	INFO	Stopped listening on port 51600
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileyOKzzC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+console.log: "RemoteSettingsWorker error: UnknownError: IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+[Child 15802, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:161
+[Parent 15793, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+1627438210169	Marionette	INFO	Listening on port 51985
+1627438210281	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15798, Socket Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:161
+console.log: "RemoteSettingsWorker error: UnknownError: IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1627438210990	Marionette	INFO	Stopped listening on port 51985
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627438217451	geckodriver	INFO	Listening on 127.0.0.1:52074
+1627438217494	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilecF8tUL"
+1627438218743	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilecF8tUL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627438223973	Marionette	INFO	Listening on port 52083
+1627438224109	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627439473051	geckodriver	INFO	Listening on 127.0.0.1:52629
+1627439473084	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileWViz7y"
+1627439474886	Marionette	INFO	Marionette enabled
+1627439476875	Marionette	INFO	Stopped listening on port 52083
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileWViz7y/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627439479619	Marionette	INFO	Listening on port 52638
+1627439479771	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627440673999	Marionette	INFO	Stopped listening on port 52638
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627441008567	geckodriver	INFO	Listening on 127.0.0.1:54224
+1627441008613	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileSbxbIC"
+1627441010343	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileSbxbIC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627441018261	Marionette	INFO	Listening on port 54233
+1627441018756	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: , line 0: uncaught exception: null
+1627443666639	geckodriver	INFO	Listening on 127.0.0.1:55075
+1627443666673	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileIsoOu7"
+1627443667973	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileIsoOu7/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627443672757	Marionette	INFO	Listening on port 55084
+1627443672869	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627443679830	Marionette	INFO	Stopped listening on port 54233
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627445736269	geckodriver	INFO	Listening on 127.0.0.1:55865
+1627445736309	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilegM7bib"
+1627445737972	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilegM7bib/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627445742529	Marionette	INFO	Listening on port 55874
+1627445742622	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627449461258	geckodriver	INFO	Listening on 127.0.0.1:57140
+1627449461309	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileBcaVWY"
+1627449463064	Marionette	INFO	Marionette enabled
+1627449465020	Marionette	INFO	Stopped listening on port 55084
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileBcaVWY/search.json.mozlz4", (void 0)))
+1627449468235	Marionette	INFO	Stopped listening on port 55874
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627449469307	Marionette	INFO	Listening on port 57149
+1627449469385	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627452502638	Marionette	INFO	Stopped listening on port 57149
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627452506503	geckodriver	INFO	Listening on 127.0.0.1:58479
+1627452506538	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileKUCA4c"
+1627452507747	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileKUCA4c/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627452512229	Marionette	INFO	Listening on port 58488
+1627452512345	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627484439878	Marionette	INFO	Stopped listening on port 58488
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627484529613	geckodriver	INFO	Listening on 127.0.0.1:64542
+1627484529658	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilePZPcs7"
+1627484531307	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilePZPcs7/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627484536179	Marionette	INFO	Listening on port 64551
+1627484536326	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1627484611052	geckodriver	INFO	Listening on 127.0.0.1:64680
+1627484611113	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileMVf5IR"
+1627484612328	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileMVf5IR/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627484618028	Marionette	INFO	Listening on port 64689
+1627484618174	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627486716821	geckodriver	INFO	Listening on 127.0.0.1:65317
+1627486716864	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileADyW0S"
+1627486718814	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileADyW0S/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627486723426	Marionette	INFO	Listening on port 65327
+1627486723537	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627487477498	Marionette	INFO	Stopped listening on port 64689
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627487592549	Marionette	INFO	Stopped listening on port 65327
+1627613220046	geckodriver	INFO	Listening on 127.0.0.1:56735
+1627613221054	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileIZlVCz"
+1627613223186	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileIZlVCz/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627613232610	Marionette	INFO	Listening on port 56746
+1627613232696	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627613239868	Marionette	INFO	Stopped listening on port 56746
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627614301605	geckodriver	INFO	Listening on 127.0.0.1:57134
+1627614302631	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile98VOLu"
+1627614304301	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile98VOLu/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627614310200	Marionette	INFO	Listening on port 57145
+1627614310379	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627614914805	geckodriver	INFO	Listening on 127.0.0.1:58496
+1627614915833	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilepyjUTz"
+1627614917490	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilepyjUTz/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627614922859	Marionette	INFO	Listening on port 58507
+1627614923027	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627615088739	Marionette	INFO	Stopped listening on port 57145
+1627615132352	geckodriver	INFO	Listening on 127.0.0.1:59238
+1627615133374	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileGyYTyy"
+1627615135092	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileGyYTyy/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627615140268	Marionette	INFO	Listening on port 59249
+1627615140373	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627615277179	Marionette	INFO	Stopped listening on port 58507
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627615820158	geckodriver	INFO	Listening on 127.0.0.1:60716
+1627615821183	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilezzXc0p"
+1627615823739	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilezzXc0p/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627615831820	Marionette	INFO	Listening on port 60727
+1627615831959	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1627616294871	Marionette	INFO	Stopped listening on port 59249
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627616370451	geckodriver	INFO	Listening on 127.0.0.1:62090
+1627616371470	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileODFcJL"
+1627616372777	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileODFcJL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627616377832	Marionette	INFO	Listening on port 62101
+1627616378037	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627617842730	Marionette	INFO	Stopped listening on port 60727
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627618632104	geckodriver	INFO	Listening on 127.0.0.1:49966
+1627618633131	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilel8sKmE"
+1627618634690	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilel8sKmE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627618640379	Marionette	INFO	Listening on port 49977
+1627618640512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627618658491	Marionette	INFO	Stopped listening on port 62101
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627619228423	geckodriver	INFO	Listening on 127.0.0.1:51331
+1627619229440	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileG6xc43"
+1627619231515	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileG6xc43/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627619236972	Marionette	INFO	Listening on port 51342
+1627619237083	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627619467423	geckodriver	INFO	Listening on 127.0.0.1:52235
+1627619468448	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileEKWadC"
+1627619469893	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileEKWadC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627619475266	Marionette	INFO	Listening on port 52246
+1627619475387	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627619545841	geckodriver	INFO	Listening on 127.0.0.1:52603
+1627619546873	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileqmPS4a"
+1627619548552	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileqmPS4a/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627619553771	Marionette	INFO	Listening on port 52614
+1627619553964	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627619588063	Marionette	INFO	Stopped listening on port 49977
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1627619593281	Marionette	INFO	Stopped listening on port 51342
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627619597491	Marionette	INFO	Stopped listening on port 52246
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627620891979	geckodriver	INFO	Listening on 127.0.0.1:54802
+1627620893007	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileEe3Q4h"
+1627620894647	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileEe3Q4h/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627620900716	Marionette	INFO	Listening on port 54813
+1627620900857	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627621571511	geckodriver	INFO	Listening on 127.0.0.1:55994
+1627621572543	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilefKmBvk"
+1627621574235	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilefKmBvk/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627621579881	Marionette	INFO	Listening on port 56005
+1627621579996	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627621666037	geckodriver	INFO	Listening on 127.0.0.1:56378
+1627621667061	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileSj8vLL"
+1627621668868	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileSj8vLL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627621673931	Marionette	INFO	Listening on port 56391
+1627621674267	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17903, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+[Parent 17903, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+1627621834947	geckodriver	INFO	Listening on 127.0.0.1:56964
+1627621835970	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileqjkzX0"
+1627621837903	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileqjkzX0/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627621843680	Marionette	INFO	Listening on port 56975
+1627621843828	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627622978335	geckodriver	INFO	Listening on 127.0.0.1:59449
+1627622979365	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileGZb9pj"
+1627622981185	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileGZb9pj/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627622987181	Marionette	INFO	Listening on port 59460
+1627622987333	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627623971332	geckodriver	INFO	Listening on 127.0.0.1:61718
+1627623972363	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileMIydQ4"
+1627623974134	Marionette	INFO	Marionette enabled
+[18351, IPC I/O Child] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/message_pump_libevent.cc:130
+[Parent 18348, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+[Parent 18348, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1023: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIScriptSecurityManager.getLoadContextContentPrincipal]
+[Parent 18348, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 433: TypeError: this.browsingContext is null
+[Child 18351, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:161
+2021-07-30 00:46:16.195 firefox-bin[18348:891061] CoreText: System LastResort not available, using built-in copy.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002B,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39003E,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 18348, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39003E,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 18348, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39003E,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 18348, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39003E,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 18348, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002B,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002B,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002B,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileMIydQ4/search.json.mozlz4", (void 0)))
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+dyld: Library not loaded: @executable_path/libnss3.dylib
+  Referenced from: /Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container
+  Reason: no suitable image found.  Did find:
+	/Applications/Firefox.app/Contents/MacOS/libnss3.dylib: open() failed with errno=23
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1678: TypeError: bc is null
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4837: TypeError: aWindow.gNavToolbox.palette is undefined
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: , line 0: UnknownError: Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileMIydQ4/sessionCheckpoints.json.tmp for writing
+console.log: "RemoteSettingsWorker error: UnknownError: IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+console.error: SearchEngineSelector: "Received empty search configuration!"
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+[Parent 18348, IPC Launch #1] WARNING: parent WaitForMessage() failed: 0x10004003 (ipc/rcv) timed out: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:1298
+[Parent 18348, IPC I/O Parent] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:762
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: UnknownError: Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileqjkzX0/activity-stream.discovery_stream.json.tmp for writing
+JavaScript error: , line 0: uncaught exception: null
+1627625983513	Marionette	INFO	Stopped listening on port 52614
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627625988224	Marionette	INFO	Stopped listening on port 54813
+1627625992516	Marionette	INFO	Stopped listening on port 56005
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627626000866	Marionette	INFO	Stopped listening on port 56391
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627626007463	Marionette	INFO	Stopped listening on port 56975
+1627626391424	geckodriver	INFO	Listening on 127.0.0.1:62204
+1627626392449	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileU6Piyr"
+1627626394155	Marionette	INFO	Marionette enabled
+1627626397087	Marionette	INFO	Stopped listening on port 59460
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileU6Piyr/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627626401115	Marionette	INFO	Listening on port 62217
+1627626401403	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627627399349	geckodriver	INFO	Listening on 127.0.0.1:63977
+1627627400369	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileVCaxew"
+1627627402213	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileVCaxew/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627627411900	Marionette	INFO	Listening on port 63988
+1627627412175	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627627414386	Marionette	INFO	Stopped listening on port 62217
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627627703235	geckodriver	INFO	Listening on 127.0.0.1:64640
+1627627704266	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileL8j8oI"
+1627627706441	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileL8j8oI/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627627716350	Marionette	INFO	Listening on port 64654
+1627627716738	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1627627812250	Marionette	INFO	Stopped listening on port 63988
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627628061654	geckodriver	INFO	Listening on 127.0.0.1:65526
+1627628062686	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileL6BEH5"
+1627628064217	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileL6BEH5/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627628069571	Marionette	INFO	Listening on port 49153
+1627628069653	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627628963600	Marionette	INFO	Stopped listening on port 64654
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627629190451	geckodriver	INFO	Listening on 127.0.0.1:51291
+1627629191472	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofiler9cGcG"
+1627629192832	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofiler9cGcG/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627629198431	Marionette	INFO	Listening on port 51302
+1627629198595	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627629925727	geckodriver	INFO	Listening on 127.0.0.1:53099
+1627629926751	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileJtfD55"
+1627629928190	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileJtfD55/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627629934176	Marionette	INFO	Listening on port 53110
+1627629934323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627630097554	geckodriver	INFO	Listening on 127.0.0.1:53798
+1627630098570	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileAdxZE9"
+1627630100111	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileAdxZE9/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627630105270	Marionette	INFO	Listening on port 53809
+1627630105417	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627630282397	Marionette	INFO	Stopped listening on port 49153
+1627630286321	Marionette	INFO	Stopped listening on port 51302
+1627630290192	Marionette	INFO	Stopped listening on port 53110
+1627630424083	geckodriver	INFO	Listening on 127.0.0.1:54497
+1627630425102	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile1EvQSm"
+1627630426734	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile1EvQSm/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627630431834	Marionette	INFO	Listening on port 54508
+1627630431965	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627630774929	geckodriver	INFO	Listening on 127.0.0.1:55245
+1627630775954	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilebhsak0"
+1627630777068	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilebhsak0/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627630781908	Marionette	INFO	Listening on port 55256
+1627630782076	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627631167185	Marionette	INFO	Stopped listening on port 53809
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1627631173660	Marionette	INFO	Stopped listening on port 54508
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627631942772	geckodriver	INFO	Listening on 127.0.0.1:57484
+1627631943796	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilendIlSK"
+1627631945319	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilendIlSK/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627631950632	Marionette	INFO	Listening on port 57495
+1627631950847	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627632571003	geckodriver	INFO	Listening on 127.0.0.1:58973
+1627632572035	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile8LeiGf"
+1627632573628	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile8LeiGf/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627632578845	Marionette	INFO	Listening on port 58984
+1627632578977	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1627633026573	geckodriver	INFO	Listening on 127.0.0.1:60062
+1627633027598	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileyOprZ4"
+1627633028888	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileyOprZ4/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627633034021	Marionette	INFO	Listening on port 60073
+1627633034230	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627633562028	geckodriver	INFO	Listening on 127.0.0.1:61073
+1627633563056	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileyk1xtm"
+1627633564665	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileyk1xtm/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627633570017	Marionette	INFO	Listening on port 61084
+1627633570116	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627633809099	geckodriver	INFO	Listening on 127.0.0.1:61825
+1627633810120	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilejcR1au"
+1627633811441	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilejcR1au/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627633816929	Marionette	INFO	Listening on port 61836
+1627633817063	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627634024249	geckodriver	INFO	Listening on 127.0.0.1:62423
+1627634025278	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileWyF6yo"
+[Parent 19441, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+** Unknown exception behavior: 0
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: UnknownError: Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilejcR1au/activity-stream.discovery_stream.json.tmp for writing
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: UnknownError: Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilendIlSK/activity-stream.discovery_stream.json.tmp for writing
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: UnknownError: Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilejcR1au/activity-stream.discovery_stream.json.tmp for writing
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1627660193144	Marionette	INFO	Stopped listening on port 55256
+1627660197102	Marionette	INFO	Stopped listening on port 57495
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627660201330	Marionette	INFO	Stopped listening on port 58984
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627660207294	Marionette	INFO	Stopped listening on port 60073
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627660211224	Marionette	INFO	Stopped listening on port 61084
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627660229089	Marionette	INFO	Stopped listening on port 61836
+1627660394639	geckodriver	INFO	Listening on 127.0.0.1:49219
+1627660395686	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilelJHA2Y"
+1627660397337	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilelJHA2Y/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627660403477	Marionette	INFO	Listening on port 49230
+1627660403713	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 25286, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627660586030	geckodriver	INFO	Listening on 127.0.0.1:49822
+1627660587051	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileFJpafq"
+1627660588630	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileFJpafq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627660594686	Marionette	INFO	Listening on port 49833
+1627660594788	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627660784209	geckodriver	INFO	Listening on 127.0.0.1:50393
+1627660785258	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilexPYjYE"
+1627660789456	Marionette	INFO	Marionette enabled
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilexPYjYE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627660802481	Marionette	INFO	Listening on port 50404
+1627660802638	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1627661005782	geckodriver	INFO	Listening on 127.0.0.1:51006
+1627661006807	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile2Qw41V"
+1627661008616	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile2Qw41V/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627661016529	Marionette	INFO	Listening on port 51017
+1627661016605	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1627661428343	geckodriver	INFO	Listening on 127.0.0.1:51725
+1627661429355	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileeH7At2"
+1627661430970	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileeH7At2/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627661439315	Marionette	INFO	Listening on port 51736
+1627661439712	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627661447037	Marionette	INFO	Stopped listening on port 49230
+1627661453361	Marionette	INFO	Stopped listening on port 49833
+1627661459472	Marionette	INFO	Stopped listening on port 50404
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627661464460	Marionette	INFO	Stopped listening on port 51017
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627661749200	geckodriver	INFO	Listening on 127.0.0.1:52403
+1627661750232	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileLhq6yK"
+1627661751884	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileLhq6yK/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627661758826	Marionette	INFO	Listening on port 52414
+1627661758992	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627661809604	Marionette	INFO	Stopped listening on port 51736
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627663002075	geckodriver	INFO	Listening on 127.0.0.1:54511
+1627663003114	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileBx07sD"
+1627663005483	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileBx07sD/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627663015365	Marionette	INFO	Listening on port 54522
+1627663015547	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627663076524	Marionette	INFO	Stopped listening on port 52414
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627664341251	geckodriver	INFO	Listening on 127.0.0.1:56516
+1627664342298	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile26fkxn"
+1627664345003	Marionette	INFO	Marionette enabled
+1627664350709	Marionette	INFO	Stopped listening on port 54522
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofile26fkxn/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627664361184	Marionette	INFO	Listening on port 56527
+1627664361529	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627664529521	geckodriver	INFO	Listening on 127.0.0.1:57101
+1627664529556	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileVD02Ok"
+1627664531348	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileVD02Ok/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627664538628	Marionette	INFO	Listening on port 57110
+1627664538826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627664547326	Marionette	INFO	Stopped listening on port 56527
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627665597765	geckodriver	INFO	Listening on 127.0.0.1:58839
+1627665598796	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilek2GM70"
+1627665599859	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilek2GM70/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627665604815	Marionette	INFO	Listening on port 58850
+1627665604998	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1627665992569	geckodriver	INFO	Listening on 127.0.0.1:59984
+1627665993593	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileDmDvq2"
+1627665995869	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileDmDvq2/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627666001988	Marionette	INFO	Listening on port 59995
+1627666002109	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1627666464782	Marionette	INFO	Stopped listening on port 57110
+1627666476918	Marionette	INFO	Stopped listening on port 58850
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627666489287	geckodriver	INFO	Listening on 127.0.0.1:61275
+1627666490314	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilesevr3i"
+1627666491544	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofilesevr3i/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627666497685	Marionette	INFO	Listening on port 61286
+1627666497818	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gis.servicelocator.org/jsapi/, line 202: TypeError: a is null
+1627667277201	geckodriver	INFO	Listening on 127.0.0.1:62727
+1627667278238	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileIV05ur"
+1627667279735	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z3/s20r1j7s1hj64v7y57fdc5gw0000gn/T/rust_mozprofileIV05ur/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627667284722	Marionette	INFO	Listening on port 62739
+1627667284951	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627667523904	Marionette	INFO	Stopped listening on port 61286
+1627667527510	Marionette	INFO	Stopped listening on port 59995
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
