@@ -53,7 +53,7 @@ Firefox
 </ul>
 
 
-Firefox
+Chrome
 <ul>
   <li>Mac     : ./drivers/chromedriver</li>
   <li>Windows : .\drivers\chromedriver.exe</li>
@@ -67,12 +67,12 @@ if things don't work
 Just run the following command after this:
 
 ```sh
-python3 webscraper_v2.py
+python3 webscraper_v3.py
 ```
 Or 
 
 ```sh
-python webscraper_v2.py
+python webscraper_v3.py
 ``` 
 
 
