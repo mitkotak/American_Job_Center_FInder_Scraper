@@ -60,10 +60,10 @@ Firefox
 </ul>
 
 
-Now just run the geckodriver/geckodriver.exe once by double-clicking on it. Install the latest version from [here] (https://github.com/mozilla/geckodriver/releases) 
+Now just run the geckodriver/geckodriver.exe | chromedriver/chromedriver.exe once by double-clicking on it. Install the latest version from [here](https://github.com/mozilla/geckodriver/releases) or [here](https://chromedriver.chromium.org)
 if things don't work 
 
-  
+
 Just run the following command after this:
 
 ```sh
