@@ -23,10 +23,10 @@
 
 ## Usage
 
-Install [Firefox](https://www.mozilla.org/en-US/) if you don't have that already on your computer. If you want to use chrome then uncomment these [lines](https://github.com/mitkotak/American_Job_Center_Scraper/blob/50400031a18cc47afcaa740a48a9ca3c418fac17/webscraper_v3.py#L34). Remember to comment out the Firefoc lines.
+Install [Chrome](https://www.google.com/chrome/) or [Firefox](https://www.mozilla.org/en-US/) if you don't have that already on your computer. If you want to use Chrome then uncomment these [lines](https://github.com/mitkotak/American_Job_Center_Scraper/blob/50400031a18cc47afcaa740a48a9ca3c418fac17/webscraper_v3.py#L34). Remember to comment out the Firefox [lines](https://github.com/mitkotak/American_Job_Center_Scraper/blob/8914c31b48901d73372cc7d5c4bd4f02ff06cf31/webscraper_v3.py#L32).
   
-
-Fire up your terminal/command prompt, navigate to the repo folder and install all of the requirements.
+  
+Fire up your terminal/command prompt, navigate to the Github folder and install all of the requirements.
 
 ```sh
 pip install -r requirements.txt
