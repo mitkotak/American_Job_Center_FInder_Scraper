@@ -7,7 +7,7 @@ from collections import defaultdict
 
 columns = defaultdict(list) # each value in each column is appended to a list
 
-with open('test_zipcode.csv') as f:
+with open('test_states.csv') as f:
     reader = csv.DictReader(f) # read rows into a dictionary format
     for row in reader: # read a row as {column1: value1, column2: value2,...}
         for (k,v) in row.items(): # go over each column name and value 
@@ -25,9 +25,9 @@ print("Zipcodes : ",columns['Zipcode'])
 #driver = webdriver.Firefox(executable_path=r'./drivers/geckodriver')
 #print("Done")
 
-file = open('scrapped.csv', 'w+', newline ='')
-with file:
-	for zipcode in columns['Zipcode']:
+for zipcode in columns['Zipcode']:
+	file = open('scrapped_'+zipcode+'.csv', 'w+', newline ='')
+	with file:
 		#print("Loading Firefox Driver")
 		#driver = webdriver.Firefox(executable_path=r'./drivers/geckodriver')
 		#print("Done")
