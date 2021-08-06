@@ -25,14 +25,14 @@ print("Zipcodes : ",columns['Zipcode'])
 #driver = webdriver.Firefox(executable_path=r'./drivers/geckodriver')
 #print("Done")
 
-for zipcode in columns['Zipcode']:
-	file = open('scrapped_'+zipcode+'.csv', 'w+', newline ='')
-	with file:
-		print("Loading Firefox Driver")
-		driver = webdriver.Firefox(executable_path=r'./drivers/geckodriver')
-		print("Done")
-		#print("Loading Chrome Driver..")
-		#driver = webdriver.Chrome('./drivers/chromedriver_mac')
+file = open('scrapped.csv', 'w+', newline ='')
+with file:
+	for zipcode in columns['Zipcode']:
+		#print("Loading Firefox Driver")
+		#driver = webdriver.Firefox(executable_path=r'./drivers/geckodriver')
+		#print("Done")
+		print("Loading Chrome Driver..")
+		driver = webdriver.Chrome('./drivers/chromedriver_mac')
 		link_main = 'https://www.careeronestop.org/WorkerReEmployment/Toolkit/find-american-job-centers.aspx?location='+zipcode+'&radius=500&ct=0&y=0&w=0&e=0&sortcolumns=Distance&sortdirections=ASC&centerID=1517839&curPage=1&pagesize=500'
 		print('opening link')
 		driver.get(link_main)
@@ -142,9 +142,9 @@ for zipcode in columns['Zipcode']:
 				sr_col2_link = '//*[@id="SR"]/table/tbody/tr['+str(i)+']/td[2]'
 				sr_col2_elem = driver.find_elements_by_xpath(sr_col2_link)[0].get_attribute("innerHTML")
 				if sr_col2_elem == []:
-					sr_col2    = ''
+					sr_col2 = ''
 				else:
-					sr_col2      = sr_col2_elem[:-4]
+					sr_col2 = sr_col2_elem[:-4]
 				if sr_col2[0] == 'Y':
 					sr_col2 = sr_col2[0:3]
 				elif sr_col2[0] == 'N':
